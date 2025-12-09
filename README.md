@@ -38,9 +38,11 @@ Deixe as outras opções com as configurações padrão.
 ##  Etapa 2: Instalar uma aplicação personalizada usando a opção Executar comando
 
 <img width="2391" height="1309" alt="InstallApplication" src="https://github.com/user-attachments/assets/77388b51-3934-4d4f-b2eb-aa4312cd342d" />
+
 No diagrama anterior, o Systems Manager instala uma aplicação em uma instância do EC2 em uma nuvem privada virtual (VPC). Ele é instalado usando a opção Executar comando. A opção Executar comando executará o "script install" e o seguinte: servidor web Apache, PHP, SDK da AWS e o aplicativo web. Depois de tudo instalado, ele também inicia o servidor web.
 
 1. No canto superior esquerdo, expanda o ícone de menu. Em Gerenciamento de nós, selecione Executar comando.
+
 2. Selecione [Executar comando].
 3. Em seguida clicar em Adicionar nova sub-rede
 4. Em Sub-rede 1 de 1, digite o nome da sub-rede: Public Subnet 1
